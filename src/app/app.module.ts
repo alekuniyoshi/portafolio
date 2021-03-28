@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 
 
 
@@ -9,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
+    PortafolioComponent,
   ],
   imports: [
     BrowserModule
