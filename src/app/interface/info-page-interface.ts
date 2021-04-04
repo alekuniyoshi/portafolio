@@ -5,7 +5,7 @@ export interface infoPage {
   autor_page?: string;
   facebook?: string;
   instagram?: string;
-  twiter?: string;
+  twitter?: string;
   tumblr?: string;
   team_work?: any[];
 }
