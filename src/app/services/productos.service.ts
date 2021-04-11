@@ -57,8 +57,5 @@ export class ProductosService {
       }
 
     });
-
-    console.log(this.productosFiltrados);
-
   }
 }

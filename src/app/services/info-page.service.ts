@@ -32,7 +32,6 @@ export class InfoPageService {
     this.http.get('https://angular-porfolio-b3bc9-default-rtdb.firebaseio.com/equipo.json').subscribe((resp: any[]) => {
       this.cargada = true;
       this.equipo = resp;
-      // console.log(resp);
     });
   }
 }
